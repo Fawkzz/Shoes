@@ -1,0 +1,219 @@
+html, body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+header{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+    height: 122px;
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;    
+
+}
+
+header .container nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #777777;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.frete{
+    background-color: #C2185B;
+    color: #fff;
+    font-weight: 600;
+    line-height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+section .container h1{
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    color: #575757;
+}
+
+form{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.formulario input{
+    margin-bottom: 20px;
+}
+.formulario label{
+    margin-bottom: 5px;
+}
+
+.departamento{ 
+    display: inline-block;  
+    justify-content: flex-start;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+}
+
+
+.disponibilidade{
+    margin-bottom: 30px;
+}
+.departamento span{ 
+    display: block;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.departamento label{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.departamento input{
+    background-color: #C4C4C4;
+    width: 30px;
+}
+
+.texto{
+    height: 120px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+.texto span{
+    display:block;
+    margin-bottom: 10px;
+}
+
+.upload{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 5px;   
+}
+.upload span{
+    margin-right: 10px;
+}
+
+.upload input{
+}
+
+
+section p{
+    width: 600px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #575757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+section form label{
+    font-size: 18px;
+    line-height: 21px;    
+    color: #9B9B9B;
+}
+
+section form .formulario input{
+    width: 538px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+section form select{
+    width: 538px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+.container form span{
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+
+textarea{
+    width: 536.64px;
+    height: 78px;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+
+button{
+    width: 537px;
+    height: 33px;
+    left: 123px;
+    background: #C2185B;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+}
+
+
+footer{
+    height: 248px;
+    background: #C2185B;
+    color: #fff;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .logo{
+    width: 300px;
+}
+
+footer a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+}

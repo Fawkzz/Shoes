@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+header{
+    -webkit-box-shadow: 0px 5px 20px 5px rgba(122,122,122,0.4); 
+    box-shadow: 0px 5px 20px 5px rgba(122,122,122,0.4);
+    display: flex;
+    background: #FFFFFF;
+    justify-content: center;
+    height: 122px;
+}
+
+header .cabecalho{
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #777777;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.container_principal{
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.container_principal .banner{
+   display: flex;
+   justify-content: center;
+}
+
+.container_principal .secao_estilo p{
+    color: #000000;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+}
+
+.estilo img{
+    margin-left: 115px;
+    margin-bottom: 215px;
+}
+
+.off{
+    background-color: #C2185B;
+    height: 662px; 
+    padding-top: 60px;
+}
+
+.off h2{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.titulo_off{
+    color: #fff;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px; 
+    height: 40px;
+    justify-content: center;   
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.off .card_sandalia{
+    background-color: #fff;
+    width: 260px;
+    height: 388px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.off .card_sandalia span{
+    font: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;  
+    margin-left: 15px;
+}
+
+.off .card_sandalia p{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    margin-left:15px;
+    margin-top: 1px;
+}
+
+
+.verDetalhes{
+    background-color: #C2185B;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+ .detalhes p{
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    color: #000000;
+ }
+
+footer {
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+    height: 248px;
+}
+
+footer h1{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.institucional{
+    margin-left: 40px;
+    text-align: center;
+    Width:246px;
+    Height: 161px;
+}
+
+.categorias{
+    align-items: center;
+    text-align: center;
+    
+}
+
+.categorias h1{
+    text-align: center;
+    margin-left: 30px;
+}
+.categorias ul li a{
+    text-decoration: none;
+}
+
+.logo p{
+    margin: 0px;
+    width: 255px;
+    height: 91px;
+    padding: 0px;
+}
+
+.frete{
+    background-color: #C2185B;
+    line-height: 70px;
+    color: #fff;
+    font-weight: 600;
+}
